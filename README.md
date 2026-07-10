@@ -40,7 +40,7 @@ git --version
 ### 2.1 Start MongoDB
 If you don't want to install MongoDB locally, just run it in Docker:
 ```bash
-docker run -d --name mongo -p 27017:27017 mongo:7
+docker run -d --name mongo -p 27018:27017 mongo:7
 ```
 
 ### 2.2 Backend setup
